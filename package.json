@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "mongoose": "^9.6.2",
+    "msnodesqlv8": "^5.2.0",
+    "mssql": "^12.5.2"
+  }
+}
