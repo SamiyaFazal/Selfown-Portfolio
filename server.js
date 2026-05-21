@@ -15,9 +15,8 @@ app.use(express.json());
 // MYSQL CONNECTION
 
 
-const db = mysql.createConnection({
-  uri: process.env.DATABASE_URL
-});
+const db = mysql.createConnection(process.env.DATABASE_URL);
+
 // CONNECT DATABASE
 
 db.connect((err) => {
